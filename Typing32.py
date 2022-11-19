@@ -12,6 +12,4 @@ time.sleep(30)
 driver.find_element(by=By.ID, value='Button2').click()
 while True:
     text = driver.find_element(by=By.ID, value='TextWord').text
-    time.sleep(0.2)
     driver.find_element(by=By.ID, value='InputWord').send_keys(text)
-    time.sleep(0.2)
